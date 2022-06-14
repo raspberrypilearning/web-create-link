@@ -1,59 +1,24 @@
-## Introduction
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+A <span style="color: #0faeb0">hyperlink</span> is a clickable link to another web page. Links are usually underlined or otherwise styled to make them standout. 
+</p>
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+In HTML the `<a>` tag is used to create links. 
 
-### What you will make
++ You put the link text that will appear on the web page inside `<a>` and `</a>` 
++ The `href` attribute provides the web address (usually beginning with 'https:') of the page you want to link to. 
++ You can also add `target="_blank"` to make the linked web page open in a new tab in the web browser instead of replacing the current web page.  
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
+language: html
+filename: index.html
+line_numbers: false
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+<p><a href="https://rpf.io/emoji" target="_blank">More emoji!</a></p>
 
---- /collapse ---
+--- /code ---
 
---- collapse ---
----
-title: Additional information for educators
----
+The appearance of the link is set by a rule for `<a>` elements in your style file. 
 
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+<iframe src="https://trinket.io/embed/html/c575a91355?toggleCode=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

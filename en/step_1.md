@@ -21,5 +21,5 @@ line_numbers: false
 
 The appearance of the link is set by a rule for `<a>` elements in your style file. 
 
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/web-create-link" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/web-create-link" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 

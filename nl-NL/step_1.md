@@ -1,12 +1,12 @@
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">hyperlink</span> is a clickable link to another webpage. Links are usually underlined or otherwise styled to separate them from the rest of the text. 
+Een <span style="color: #0faeb0">hyperlink</span> is een klikbare link naar een andere webpagina. Links zijn meestal onderstreept of op een andere manier opgemaakt om ze van de rest van de tekst te scheiden. 
 </p>
 
-In HTML the `<a>` tag is used to create links:
+In HTML wordt de tag `<a>` gebruikt om links te maken:
 
-- You put the link text that appears on the webpage inside `<a>` and `</a>`
-- The `href` attribute provides the web address (usually beginning with 'https:') of the page you want to link to
-- You can also add `target="_blank"` to make the linked webpage open in a new tab in the web browser instead of replacing the current webpage
+- Je plaatst de linktekst die op de webpagina verschijnt tussen `<a>` en `</a>`
+- Het `href` attribuut biedt het webadres (begint meestal met 'https:') van de pagina waarnaar je wilt linken
+- Je kunt ook `target="_blank"` toevoegen om de geinkte webpagina te openen in een nieuw tabblad in de webbrowser in plaats van de huidige webpagina te vervangen
 
 ## --- code ---
 
@@ -15,10 +15,10 @@ filename: index.html
 line_numbers: false
 --------------------------------------------------------
 
-<p><a href="https://rpf.io/emoji" target="_blank">More emoji!</a></p>
+<p><a href="https://rpf.io/emoji" target="_blank">Meer emoji!</a></p>
 
 \--- /code ---
 
-The appearance of the link is set by a rule for `<a>` elements in your style file.
+Het uiterlijk van de link is ingesteld door een regel voor `<a>` elementen in je stijlbestand.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/web-create-link" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
